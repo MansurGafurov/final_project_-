@@ -17,3 +17,14 @@ void CheckElements(string[] array1)
 }
 
 Console.WriteLine();
+
+void PrintArray(string[] array2)
+{
+    for (int x = 0; x < array2.Length; x++)
+    {
+        Console.WriteLine($"элемент {array2[x]}");
+    }
+}
+
+CheckElements(array1);
+PrintArray(array2);
